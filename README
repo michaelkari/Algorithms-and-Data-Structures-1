@@ -1,0 +1,21 @@
+It should be said that requirement two needs a non-invisible input and 
+enter to be pressed for the sorting to take place when running testSort2
+
+ie. 
+>testSort2 hello 1 3 2
+>*waiting for random key input ie. 'a' and pressing 'enter' key*
+>Output is as follows:
+>0
+>1
+>2
+>3
+
+
+Question 1.
+
+#include <stdio.h>
+
+void mySort(int d[], unsigned int n)
+{
+  	betterSort(d, 0, n-1);
+}

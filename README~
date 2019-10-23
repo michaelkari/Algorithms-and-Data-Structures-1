@@ -1,0 +1,13 @@
+It should be said that I did not have time to test requirement 2 fully and there may be bugs that I
+am unable to work out as I do not have access to a open playTest and playTest2 files through bitVise
+at home. However, the core functionality should still be implemented.
+
+
+1.
+
+#include <stdio.h>
+
+void mySort(int d[], unsigned int n)
+{
+  	betterSort(d, 0, n-1);
+}
